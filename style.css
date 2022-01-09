@@ -386,6 +386,42 @@ section .title::after{
 a, a:visited, a:hover, a:active{
     color: inherit;
 }
+.github {
+    
+    background-color: crimson;
+    border: none;
+    /* color: white; */
+    padding: 10px 13x;
+    /* font-size: 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  .github2{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+  }
+  .github2:hover {
+    background-color: inherit;
+    border: 3px solid crimson;
+    color: crimson;
+    
+  }
+  .githubDiv{
+      padding-top: 50px;
+      text-align: center;
+  }
 .teams .title::after{
     content: "Sample projects";
 }
